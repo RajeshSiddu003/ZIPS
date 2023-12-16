@@ -1,0 +1,13 @@
+.auth-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.auth-heading {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.auth-element {
+  width: 40%;
+}

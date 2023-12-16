@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.form button {
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  background-color: #ffd700;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.form button:hover {
+  filter: brightness(105%);
+}
+
+.err-msg {
+  font-style: italic;
+  text-align: center;
+  color: red;
+}
+
+.post-container {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bdy {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.nologin {
+  color: red;
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+}

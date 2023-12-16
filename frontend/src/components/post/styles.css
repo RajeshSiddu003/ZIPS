@@ -1,0 +1,38 @@
+.post-card {
+  /* background-color: grey; */
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px #ffd700;
+}
+
+.post-card-contents {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.post-card-contents .name {
+  font-size: 25px;
+}
+
+.post-card-contents .title {
+  font-size: 35px;
+}
+
+.post-card-contents .content {
+  font-size: 15px;
+}
+
+.post-card-contents img {
+  border-radius: 10px;
+}
+
+.post-card-contents button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  align-self: flex-start;
+}

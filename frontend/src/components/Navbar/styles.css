@@ -1,0 +1,22 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffd700;
+}
+
+.navbar-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0px 20px 0px 20px;
+}
+
+.last-item {
+  margin-left: auto;
+}
