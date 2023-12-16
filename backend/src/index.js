@@ -9,7 +9,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb://0.0.0.0:27017/db");
+// mongoose.connect("mongodb://0.0.0.0:27017/db");
+mongoose.connect(
+  "mongodb+srv://rajeshsiddu003:SeA7ApKchzUAlcga@cluster0.izszcjn.mongodb.net/DB"
+);
 
 /// write here ///
 app.use("/auth", userRouter);
